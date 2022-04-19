@@ -1,0 +1,113 @@
+@media (min-width: 769px) and (max-width:1200px) {
+    .container{
+        padding-right:50px;
+        padding-left:50px;
+    }
+
+
+}
+
+@media (max-width:768px){
+    .area1{
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .area2{
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area3{
+        grid-template-columns: 3fr 2fr;
+    }
+    .container{
+        padding-right:50px;
+        padding-left:50px;
+    }
+
+    .banner-images img{
+        width:120px;
+        height:120px;
+        border:5px solid #117050;
+    }
+
+  
+}
+
+@media(max-width: 600px){
+
+    .header-search{
+        max-width:110px;
+    }
+
+    h1{
+        font-size:30px !important;
+        line-height:30px !important;
+    }
+    h2{
+        font-size: 25px;
+        line-height:30px;
+    }
+
+   input{
+       width: 110px !important;
+   }
+
+   .menu{
+       margin-right: -40px !important;
+   }
+
+  
+
+    .banner-images img{
+        width:90px;
+        height:90px;
+        border:3px solid #117050;
+        margin-right: 3px;
+    }
+
+    .area1,
+    .area2,
+    .area3,
+    .area4{
+        grid-template-columns: 1fr;
+    }
+
+    .area1-content,
+    .area2-content,
+    .area3-content,
+    .area4-content{
+        padding: 50px;
+        font-size:18px;
+
+    }
+
+    .area3-img3{
+        background-image: url(../assets/img/f5.jpg);
+        background-attachment: fixed;
+        height: 500px;
+    }
+    .area4-img4{
+        background-image: url(../assets/img/bg3.jpg);
+        background-attachment: fixed;
+        height: 500px;
+    }
+
+    .area3-text .button{
+        margin-top: 20px;
+
+    }
+    .area4-text .button{
+        margin-top: 20px;
+
+    }
+
+    .area5{
+        height:200px;
+    }
+
+    footer{
+        font-size:12px;
+        padding:20px 40px;
+    }
+}
+
